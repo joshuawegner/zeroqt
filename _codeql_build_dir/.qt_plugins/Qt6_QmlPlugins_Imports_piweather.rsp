@@ -1,0 +1,14 @@
+-rootPath
+/home/runner/work/zeroqt/zeroqt
+-cmake-output
+-output-file
+/home/runner/work/zeroqt/zeroqt/_codeql_build_dir/.qt_plugins/Qt6_QmlPlugins_Imports_piweather.cmake
+-importPath
+/home/runner/work/zeroqt/zeroqt/_codeql_build_dir/PiWeather
+-importPath
+/home/runner/work/zeroqt/zeroqt/_codeql_build_dir
+-importPath
+/usr/lib/x86_64-linux-gnu/qt6/qml
+-qrcFiles
+/home/runner/work/zeroqt/zeroqt/_codeql_build_dir/.rcc/qmake_PiWeather.qrc
+/home/runner/work/zeroqt/zeroqt/_codeql_build_dir/.rcc/piweather_raw_qml_0.qrc
