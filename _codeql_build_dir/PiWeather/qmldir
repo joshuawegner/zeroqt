@@ -1,4 +1,0 @@
-module PiWeather
-typeinfo piweather.qmltypes
-prefer :/PiWeather/
-
