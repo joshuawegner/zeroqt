@@ -1,0 +1,22 @@
+[Unit]
+Description=Bluetooth HID Profile for MacroPad
+After=bluetooth.target
+Requires=bluetooth.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStartPre=/bin/sleep 2
+ExecStart=/bin/bash -c '\
+    # Enable Bluetooth and set it up for HID mode \
+    bluetoothctl power on && \
+    bluetoothctl discoverable on && \
+    bluetoothctl pairable on && \
+    bluetoothctl agent NoInputNoOutput && \
+    bluetoothctl default-agent'
+ExecStop=/bin/bash -c '\
+    bluetoothctl discoverable off && \
+    bluetoothctl pairable off'
+
+[Install]
+WantedBy=bluetooth.target

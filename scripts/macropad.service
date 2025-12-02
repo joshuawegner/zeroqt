@@ -1,0 +1,22 @@
+[Unit]
+Description=MacroPad Bluetooth Keyboard Application
+After=bluetooth.target graphical.target
+Wants=bluetooth.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+Environment=QT_QPA_PLATFORM=eglfs
+Environment=QT_QPA_EGLFS_WIDTH=800
+Environment=QT_QPA_EGLFS_HEIGHT=480
+Environment=QT_QPA_EGLFS_HIDECURSOR=0
+Environment=QT_QPA_EGLFS_PHYSICAL_WIDTH=154
+Environment=QT_QPA_EGLFS_PHYSICAL_HEIGHT=86
+Environment=QT_QUICK_CONTROLS_STYLE=Material
+ExecStart=/usr/local/bin/macropad
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=graphical.target
