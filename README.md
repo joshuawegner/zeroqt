@@ -80,7 +80,8 @@ sudo apt-get update
 sudo apt-get install -y \
     qt6-base-dev \
     qt6-declarative-dev \
-    qt6-quickcontrols2-dev \
+    qml6-module-qtquick-controls \
+    qml6-module-qtquick-templates \
     cmake g++ \
     bluez libbluetooth-dev
 
