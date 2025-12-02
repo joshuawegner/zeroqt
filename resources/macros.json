@@ -1,0 +1,114 @@
+{
+    "columns": 4,
+    "rows": 3,
+    "macros": [
+        {
+            "id": "copy",
+            "name": "Copy",
+            "icon": "📋",
+            "color": "#4CAF50",
+            "sequence": [
+                {"type": "key", "keyCode": 6, "modifiers": 1}
+            ]
+        },
+        {
+            "id": "paste",
+            "name": "Paste",
+            "icon": "📄",
+            "color": "#2196F3",
+            "sequence": [
+                {"type": "key", "keyCode": 25, "modifiers": 1}
+            ]
+        },
+        {
+            "id": "cut",
+            "name": "Cut",
+            "icon": "✂️",
+            "color": "#FF9800",
+            "sequence": [
+                {"type": "key", "keyCode": 27, "modifiers": 1}
+            ]
+        },
+        {
+            "id": "undo",
+            "name": "Undo",
+            "icon": "↩️",
+            "color": "#9C27B0",
+            "sequence": [
+                {"type": "key", "keyCode": 29, "modifiers": 1}
+            ]
+        },
+        {
+            "id": "redo",
+            "name": "Redo",
+            "icon": "↪️",
+            "color": "#E91E63",
+            "sequence": [
+                {"type": "key", "keyCode": 28, "modifiers": 1}
+            ]
+        },
+        {
+            "id": "save",
+            "name": "Save",
+            "icon": "💾",
+            "color": "#00BCD4",
+            "sequence": [
+                {"type": "key", "keyCode": 22, "modifiers": 1}
+            ]
+        },
+        {
+            "id": "select_all",
+            "name": "Select All",
+            "icon": "🔲",
+            "color": "#607D8B",
+            "sequence": [
+                {"type": "key", "keyCode": 4, "modifiers": 1}
+            ]
+        },
+        {
+            "id": "find",
+            "name": "Find",
+            "icon": "🔍",
+            "color": "#795548",
+            "sequence": [
+                {"type": "key", "keyCode": 9, "modifiers": 1}
+            ]
+        },
+        {
+            "id": "new_tab",
+            "name": "New Tab",
+            "icon": "➕",
+            "color": "#3F51B5",
+            "sequence": [
+                {"type": "key", "keyCode": 23, "modifiers": 1}
+            ]
+        },
+        {
+            "id": "close_tab",
+            "name": "Close Tab",
+            "icon": "❌",
+            "color": "#F44336",
+            "sequence": [
+                {"type": "key", "keyCode": 26, "modifiers": 1}
+            ]
+        },
+        {
+            "id": "mute",
+            "name": "Mute",
+            "icon": "🔇",
+            "color": "#9E9E9E",
+            "sequence": [
+                {"type": "key", "keyCode": 127, "modifiers": 0}
+            ]
+        },
+        {
+            "id": "screenshot",
+            "name": "Screenshot",
+            "icon": "📸",
+            "color": "#8BC34A",
+            "sequence": [
+                {"type": "key", "keyCode": 70, "modifiers": 8}
+            ]
+        }
+    ]
+}
